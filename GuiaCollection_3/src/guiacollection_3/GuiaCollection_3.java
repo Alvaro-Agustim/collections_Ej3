@@ -5,6 +5,8 @@
  */
 package guiacollection_3;
 
+import Servicios.ServiciosAlumnos;
+
 /**
  *
  * @author alvaro
@@ -15,7 +17,8 @@ public class GuiaCollection_3 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        ServiciosAlumnos sa = new ServiciosAlumnos();
+        sa.enLista(sa.llenarListaAlumnos());
     }
-    
+
 }
